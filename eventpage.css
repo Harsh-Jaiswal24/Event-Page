@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+.ourevents{
+    padding: 10px;
+    font-family: Basis grotesque pro, sans-serif;;
+    position:static;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+    font-size: 2rem;
+    height: 45px;;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.joinus{
+    padding: 10px;
+    position:relative;
+    left: 15%;;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    text-align:right;
+    
+}
+.joinus:hover{
+    font-size: 2.4rem;
+
+}
+
+.boxeven{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 0.1px solid #5b5b5b;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 10px 30px 10px ;
+    height: 350px;
+}
+.boxodd{
+    display: flex;
+    border: 0.1px solid #5b5b5b;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 10px 30px 10px ;
+    height: 350px;
+}
+.boxeven:hover{
+    border: 2.5px solid black;
+}
+.boxodd:hover{
+    border: 2.5px solid rgb(235, 46, 46);
+}
+@media( max-width: 885px){
+    .box{
+        height: 400px;
+    }
+}
+@media(max-width: 330px){
+    .box{
+        height: 550px;
+    }
+}
+
+
+.image1{
+    background-image: url(event1.png);
+
+    /*change background pic here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 40%;
+}
+.image2{
+    background-image: url(event1.png);
+
+    /*change background pic here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 40%;
+}
+.image3{
+    background-image: url(event1.png);
+
+    /*change background pic here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 40%;
+}
+.image4{
+    background-image: url(event1.png);
+
+    /*change background pic here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 40%;
+}
+.image5{
+    background-image: url(event1.png);
+
+    /*change background pic here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 40%;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: border-box;
+    height: 95%;
+    
+    width: 55%;
+}
+.details h2{
+    color: #183153;
+    font-weight: 550;
+    font-size: clamp(10px, 4vw , 20px);
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.description{
+    border-top: 3px solid rgba(161, 161, 161, 0.671);
+    border-radius: .5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    height: 80%;
+    width: 95%;
+    
+    font-size: clamp(10px, 2vw , 15px);
+    padding: 4px;
+}
+.details a{
+    border: 2px solid #8dadff;
+    border-radius: 8px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(3, 3, 129);
+}
+.details a:hover{
+    color: red;
+    font-size: 1.1rem;
+   
+    text-decoration: underline;
+}
